@@ -12,10 +12,10 @@
 		17B7E1EE1D04C8570000AF04 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B7E1ED1D04C8570000AF04 /* GameScene.swift */; };
 		17B7E1F01D04C8570000AF04 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B7E1EF1D04C8570000AF04 /* GameViewController.swift */; };
 		17B7E1F31D04C8570000AF04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B7E1F11D04C8570000AF04 /* Main.storyboard */; };
-		17B7E1F51D04C8570000AF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B7E1F41D04C8570000AF04 /* Assets.xcassets */; };
 		17B7E1F81D04C8570000AF04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B7E1F61D04C8570000AF04 /* LaunchScreen.storyboard */; };
 		17B7E2031D04C8570000AF04 /* FlappyCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B7E2021D04C8570000AF04 /* FlappyCloneTests.swift */; };
 		17B7E20E1D04C8570000AF04 /* FlappyCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B7E20D1D04C8570000AF04 /* FlappyCloneUITests.swift */; };
+		17B7E21C1D04C9EF0000AF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B7E21B1D04C9EF0000AF04 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 		17B7E1ED1D04C8570000AF04 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		17B7E1EF1D04C8570000AF04 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		17B7E1F21D04C8570000AF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		17B7E1F41D04C8570000AF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17B7E1F71D04C8570000AF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17B7E1F91D04C8570000AF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17B7E1FE1D04C8570000AF04 /* FlappyCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		17B7E2091D04C8570000AF04 /* FlappyCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B7E20D1D04C8570000AF04 /* FlappyCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyCloneUITests.swift; sourceTree = "<group>"; };
 		17B7E20F1D04C8570000AF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B7E21B1D04C9EF0000AF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Flappy-Ghost-Swift-2.1--master/FlappyClone/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 				17B7E1ED1D04C8570000AF04 /* GameScene.swift */,
 				17B7E1EF1D04C8570000AF04 /* GameViewController.swift */,
 				17B7E1F11D04C8570000AF04 /* Main.storyboard */,
-				17B7E1F41D04C8570000AF04 /* Assets.xcassets */,
+				17B7E21B1D04C9EF0000AF04 /* Assets.xcassets */,
 				17B7E1F61D04C8570000AF04 /* LaunchScreen.storyboard */,
 				17B7E1F91D04C8570000AF04 /* Info.plist */,
 			);
@@ -237,8 +237,8 @@
 			files = (
 				17B7E1EC1D04C8570000AF04 /* GameScene.sks in Resources */,
 				17B7E1F81D04C8570000AF04 /* LaunchScreen.storyboard in Resources */,
-				17B7E1F51D04C8570000AF04 /* Assets.xcassets in Resources */,
 				17B7E1F31D04C8570000AF04 /* Main.storyboard in Resources */,
+				17B7E21C1D04C9EF0000AF04 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
